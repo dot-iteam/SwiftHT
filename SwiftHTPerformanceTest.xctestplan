@@ -1,0 +1,49 @@
+{
+  "configurations" : [
+    {
+      "id" : "4ECFC6B8-3F61-482F-AD83-CFA583F33FE1",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+
+  },
+  "testTargets" : [
+    {
+      "skippedTests" : {
+        "suites" : [
+          {
+            "name" : "AttributeAndTagIntegrityTests"
+          },
+          {
+            "name" : "ComponentAndTypeErasureIntegrityTests"
+          },
+          {
+            "name" : "CssIntegrityTests"
+          },
+          {
+            "name" : "DocumentAndBuilderIntegrityTests"
+          },
+          {
+            "name" : "EscapingAndRawHtmlIntegrityTests"
+          },
+          {
+            "name" : "OutputEncodingIntegrityTests"
+          },
+          {
+            "name" : "SmokeRenderingTests"
+          }
+        ]
+      },
+      "target" : {
+        "containerPath" : "container:",
+        "identifier" : "SwiftHTTest",
+        "name" : "SwiftHTTest"
+      }
+    }
+  ],
+  "version" : 2
+}

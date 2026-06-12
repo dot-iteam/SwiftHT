@@ -1,0 +1,31 @@
+{
+  "configurations" : [
+    {
+      "id" : "ACCCD8C7-71A6-41FF-B1A7-6DADAD2945D2",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+
+  },
+  "testTargets" : [
+    {
+      "skippedTests" : {
+        "suites" : [
+          {
+            "name" : "PerformanceBenchmarkTests"
+          }
+        ]
+      },
+      "target" : {
+        "containerPath" : "container:",
+        "identifier" : "SwiftHTTest",
+        "name" : "SwiftHTTest"
+      }
+    }
+  ],
+  "version" : 2
+}
